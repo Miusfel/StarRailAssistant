@@ -51,11 +51,11 @@ class SRA:
                 'skip_verify': False,
                 'type': "star",
                 'version': "main",
-                'url_zip': f"https://github.com/Starry-Wind/jiuerd/archive/refs/heads/main.zip",
+                'url_zip': f"https://github.com/jiuerd/StarRailAssistant/archive/refs/heads/main.zip",
                 'unzip_path': ".",
                 'keep_folder': ['.git', 'logs', 'picture', 'map', 'tmp', 'venv'],
                 'keep_file': ['config.json', 'version.json', 'star_list.json', 'README_CHT.md', 'README.md'],
-                'zip_path': "jiuerd-main/",
+                'zip_path': "StarRailAssistant-main/",
                 'name': _("脚本"),
                 'delete_file': False
             },
@@ -318,19 +318,18 @@ class SRA:
             log.info(_("若脚本运行无反应,请使用管理员权限运行"))
             self.option_dict[option]()
 
-# 开始时间           
-starttime=time.time()
-
 if __name__ == "__main__":
     join_time = read_json_file(CONFIG_FILE_NAME).get("join_time", {})
     if type(join_time) == dict:
         sra_config_obj.join_time = 9
-    # 开始时间           
-    starttime=time.time()  
+    
+     # 开始时间           
+    starttime=time.time()
+
     sra = SRA()
     try:
         sra.set_config()    # 无config直接更新时初始化config文件
-        print(_("\033[0;31;40m星穹铁道小助手为开源项目，完全免费\n如果你是购买的那么你被骗了\n开源仓库地址: https://github.com/Starry-Wind/StarRailAssistant\n你现在所用的地图为jiuerd仓库\033[0m"))
+        print(_("\033[0;31;40m星穹铁道小助手为开源项目，完全免费\n如果你是购买的那么你被骗了\n当前仓库源为jiuerd\n开源仓库地址: https://github.com/Starry-Wind/StarRailAssistant\033[0m"))
         sra.load_plugin()
         sra.run_plugins()
         if not pyuac.isUserAdmin():
@@ -368,7 +367,6 @@ if __name__ == "__main__":
         log.error(traceback.format_exc())
     finally:
         sra.stop()
-
    #锄地结束时间
     endtime=time.time()
     #锄地运行时间
@@ -390,6 +388,7 @@ if __name__ == "__main__":
         print("锄地总耗时：","%02d时%02d分%02d秒" % (h, m, s),file=run_log_file)
         run_log_file.close()
     runlog()
+
 
 #退出脚本
 os._exit(0)
