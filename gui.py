@@ -357,9 +357,9 @@ def page_main(page: ft.Page):
                 spans=[
                     ft.TextSpan(get_mess(2)),
                     ft.TextSpan(
-                        "https://github.com/jiuerd/Auto_Star_Rail",
+                        "https://github.com/Night-stars-1/Auto_Star_Rail",
                         ft.TextStyle(decoration=ft.TextDecoration.UNDERLINE,color = ft.colors.BLUE),
-                        url="https://github.com/jiuerd/Auto_Star_Rail",
+                        url="https://github.com/Night-stars-1/Auto_Star_Rail",
                     ),
                 ],
             ),
