@@ -62,7 +62,7 @@ This software is open source, free of charge and for learning and exchange purpo
     ```json
     {
         "name": "乌拉乌拉-1",       （地图json名为1-1_1.json）
-        "author": "Night-stars-1",   （作者名，第二作者不能覆盖第一作者名称）
+        "author": "",   （作者名，第二作者不能覆盖第一作者名称）
         "start": [           （开局传送地图识别图片，并将鼠标移动至图片中间并按下按键）
             {"map": 1},         （按下m键打开地图）
             {"picture\\orientation_1.jpg": 1.5},     （识别到orientation_1.jpg图片后，将鼠标移动至图片中间并按下按键）
