@@ -1,143 +1,39 @@
 [
   {
-    "path": "README_CHT.md",
-    "hash": "f26e29d09b17110ad6f79d5c40224d57"
-  },
-  {
-    "path": "Honkai_Star_Rail.py",
-    "hash": "8a01b10f082a4c87d5bec6963e6bfe95"
-  },
-  {
-    "path": "requirements.txt",
-    "hash": "c639eae5881af89c0139e5b91b1c65f5"
-  },
-  {
     "path": "get_width.py",
     "hash": "f638b665c2c0f9cdd841c8bd35ad0852"
   },
   {
-    "path": "README.md",
-    "hash": "3dff1b385224141876cc95fdae5e52eb"
+    "path": "gui.py",
+    "hash": "8bb2fb73e5a99b566c904f4c2a5a6f79"
+  },
+  {
+    "path": "Honkai_Star_Rail.py",
+    "hash": "d49a68ab7115d29a5b0588a369edb9a0"
   },
   {
     "path": "map_res_list.py",
     "hash": "61ddda8760a56ea082d5d7276747312a"
   },
   {
+    "path": "README.md",
+    "hash": "d5f91e04919009c0952c66dfb3b2ebe9"
+  },
+  {
+    "path": "README_CHT.md",
+    "hash": "f26e29d09b17110ad6f79d5c40224d57"
+  },
+  {
     "path": "README_EN.md",
-    "hash": "86793ffe1c415f308624e02b9924a4f8"
+    "hash": "b91126b7aac1a5fa7fa4fe0e0418cc9e"
   },
   {
-    "path": "gui.py",
-    "hash": "aae914d57203b3b571281e78f06b55aa"
+    "path": "requirements.txt",
+    "hash": "c639eae5881af89c0139e5b91b1c65f5"
   },
   {
-    "path": "whl/Polygon3-3.0.9-cp311-cp311-win_amd64.whl",
-    "hash": "43a2cab179598fdaaa21da76cdaaaafc"
-  },
-  {
-    "path": "whl/cnstd-1.2.2-py3-none-any.whl",
-    "hash": "2e700dd1d42f71c71b739bd6afa67a8a"
-  },
-  {
-    "path": "whl/Polygon3-3.0.9.1-cp310-cp310-win_amd64.whl",
-    "hash": "0c19795eb68713cde783a434ea636ba9"
-  },
-  {
-    "path": "whl/httpx_socks-0.7.7-py3-none-any.whl",
-    "hash": "9c9fcdf730445180029471858d8e8c27"
-  },
-  {
-    "path": "whl/cnocr-2.2.2.3-py3-none-any.whl",
-    "hash": "fff249a0f8c75f5bc4f0f97c95880bd8"
-  },
-  {
-    "path": "model/cnocr/label_cn.txt",
-    "hash": "e3f7c9400f4379e05cadbbc8a43dda45"
-  },
-  {
-    "path": "model/cnocr/2.2/densenet_lite_134-fc/cnocr-v2.2-densenet_lite_134-fc-epoch=034-complete_match_epoch=0.8376-model.onnx",
-    "hash": "332265c72378b39e83ced6b4e42954c4"
-  },
-  {
-    "path": "model/cnocr/2.2/ppocr/en_PP-OCRv3_rec_infer.onnx",
-    "hash": "003da6ca16cae88c5270882fc5e7417b"
-  },
-  {
-    "path": "model/cnocr/2.2/ppocr/en_number_mobile_v2.0_rec_infer.onnx",
-    "hash": "442ea7b4dabdbaec95af17a6d17c3503"
-  },
-  {
-    "path": "model/cnocr/2.2/densenet_lite_114-fc/cnocr-v2.2-densenet_lite_114-fc-epoch=037-val-complete_match-epoch=0.9667-model.onnx",
-    "hash": "079f9e53539b1e636df518dfc8343f38"
-  },
-  {
-    "path": "model/cnstd/1.2/ppocr/en_PP-OCRv3_det_infer.onnx",
-    "hash": "72708a3ac241e25fefbc606832dc7529"
-  },
-  {
-    "path": "model/cnstd/1.2/ppocr/ch_PP-OCRv3_det_infer.onnx",
-    "hash": "5732f8c84bd4cc0dab35094e7260f080"
-  },
-  {
-    "path": "utils/calculated.py",
-    "hash": "bad2be4776de6690fc417fe78e2ab20f"
-  },
-  {
-    "path": "utils/update_file.py",
-    "hash": "eb1ca189b78b35d1a2a09eeb1e39cfed"
-  },
-  {
-    "path": "utils/exceptions.py",
-    "hash": "368045dd7ff5b9c346d75d9b3dd6057b"
-  },
-  {
-    "path": "utils/record_v7.2.py",
-    "hash": "03047d50df214d029132f5f9a7372aae"
-  },
-  {
-    "path": "utils/cv_tools.py",
-    "hash": "8cee1592daf7b4ff153b8ef9c97a39f8"
-  },
-  {
-    "path": "utils/map.py",
-    "hash": "dfeba1fee224dbde5e266ddcdb5b144c"
-  },
-  {
-    "path": "utils/old_cv_tools.py",
-    "hash": "d58c447d88f7924704ddbc593985bf0b"
-  },
-  {
-    "path": "utils/adb.py",
-    "hash": "82993dbc84090d081cff62d95d2d5d7a"
-  },
-  {
-    "path": "utils/log.py",
-    "hash": "172d7d4d63c1b3136c5600055e666967"
-  },
-  {
-    "path": "utils/requests.py",
-    "hash": "f004e90febde2faeb7577e928df8380d"
-  },
-  {
-    "path": "utils/simulated_universe.py",
-    "hash": "a034ae2b2de94b16d3ac6ed1dfe3a807"
-  },
-  {
-    "path": "utils/config.py",
-    "hash": "cc84336e148d5d7558ef2bde0edee672"
-  },
-  {
-    "path": "utils/get_angle.py",
-    "hash": "1f56df0ccc972ab1955078fdc372870f"
-  },
-  {
-    "path": "utils/commission.py",
-    "hash": "173d380cdc984361308350517864d38f"
-  },
-  {
-    "path": "utils/route_helper.py",
-    "hash": "cca50ef52d7075c186e12badeb0a35d0"
+    "path": "locale/EN/LC_MESSAGES/sra.mo",
+    "hash": "110d45fcca6c7b86a9770cf3e3009026"
   },
   {
     "path": "locale/zh_CN/LC_MESSAGES/sra.mo",
@@ -148,7 +44,111 @@
     "hash": "ef66f8b317d24e3eb326e739cb9b00ee"
   },
   {
-    "path": "locale/EN/LC_MESSAGES/sra.mo",
-    "hash": "110d45fcca6c7b86a9770cf3e3009026"
+    "path": "model/cnocr/label_cn.txt",
+    "hash": "737f22f42115eb4638703dd0bca992db"
+  },
+  {
+    "path": "model/cnocr/2.2/densenet_lite_114-fc/cnocr-v2.2-densenet_lite_114-fc-epoch=037-val-complete_match-epoch=0.9667-model.onnx",
+    "hash": "079f9e53539b1e636df518dfc8343f38"
+  },
+  {
+    "path": "model/cnocr/2.2/densenet_lite_134-fc/cnocr-v2.2-densenet_lite_134-fc-epoch=034-complete_match_epoch=0.8376-model.onnx",
+    "hash": "332265c72378b39e83ced6b4e42954c4"
+  },
+  {
+    "path": "model/cnocr/2.2/ppocr/en_number_mobile_v2.0_rec_infer.onnx",
+    "hash": "442ea7b4dabdbaec95af17a6d17c3503"
+  },
+  {
+    "path": "model/cnocr/2.2/ppocr/en_PP-OCRv3_rec_infer.onnx",
+    "hash": "003da6ca16cae88c5270882fc5e7417b"
+  },
+  {
+    "path": "model/cnstd/1.2/ppocr/ch_PP-OCRv3_det_infer.onnx",
+    "hash": "5732f8c84bd4cc0dab35094e7260f080"
+  },
+  {
+    "path": "model/cnstd/1.2/ppocr/en_PP-OCRv3_det_infer.onnx",
+    "hash": "72708a3ac241e25fefbc606832dc7529"
+  },
+  {
+    "path": "utils/adb.py",
+    "hash": "82993dbc84090d081cff62d95d2d5d7a"
+  },
+  {
+    "path": "utils/calculated.py",
+    "hash": "bad2be4776de6690fc417fe78e2ab20f"
+  },
+  {
+    "path": "utils/commission.py",
+    "hash": "220d3a801bcf7222fe012a5804eda1c5"
+  },
+  {
+    "path": "utils/config.py",
+    "hash": "cc84336e148d5d7558ef2bde0edee672"
+  },
+  {
+    "path": "utils/cv_tools.py",
+    "hash": "8cee1592daf7b4ff153b8ef9c97a39f8"
+  },
+  {
+    "path": "utils/exceptions.py",
+    "hash": "368045dd7ff5b9c346d75d9b3dd6057b"
+  },
+  {
+    "path": "utils/get_angle.py",
+    "hash": "11db9e8837f727f5f2572f1a4acb6f8a"
+  },
+  {
+    "path": "utils/log.py",
+    "hash": "172d7d4d63c1b3136c5600055e666967"
+  },
+  {
+    "path": "utils/map.py",
+    "hash": "dfeba1fee224dbde5e266ddcdb5b144c"
+  },
+  {
+    "path": "utils/old_cv_tools.py",
+    "hash": "f6fadc49411777b266efd9f4629f7b49"
+  },
+  {
+    "path": "utils/record_v7.2.py",
+    "hash": "03047d50df214d029132f5f9a7372aae"
+  },
+  {
+    "path": "utils/requests.py",
+    "hash": "f004e90febde2faeb7577e928df8380d"
+  },
+  {
+    "path": "utils/route_helper.py",
+    "hash": "15e2408dd8f38085b353d0dfb09b8676"
+  },
+  {
+    "path": "utils/simulated_universe.py",
+    "hash": "9bdbc1096f446fd3984ed571288fb51f"
+  },
+  {
+    "path": "utils/update_file.py",
+    "hash": "0008dff9966f011753347d62d5cd7c19"
+  },
+  {
+    "path": "whl/cnocr-2.2.2.3-py3-none-any.whl",
+    "hash": "fff249a0f8c75f5bc4f0f97c95880bd8"
+  },
+  {
+    "path": "whl/cnstd-1.2.2-py3-none-any.whl",
+    "hash": "2e700dd1d42f71c71b739bd6afa67a8a"
+  },
+  {
+    "path": "whl/httpx_socks-0.7.7-py3-none-any.whl",
+    "hash": "9c9fcdf730445180029471858d8e8c27"
+  },
+  {
+    "path": "whl/Polygon3-3.0.9-cp311-cp311-win_amd64.whl",
+    "hash": "43a2cab179598fdaaa21da76cdaaaafc"
+  },
+  {
+    "path": "whl/Polygon3-3.0.9.1-cp310-cp310-win_amd64.whl",
+    "hash": "0c19795eb68713cde783a434ea636ba9"
   }
 ]
