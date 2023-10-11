@@ -1,11 +1,19 @@
 [
   {
+    "path": "安装教程.md",
+    "hash": "e0227fb52a733719fad75b3d256c2804"
+  },
+  {
+    "path": "Autoshutdown_Honkai_Star_Rail.py",
+    "hash": "fa580228c788d07174a15ed255348940"
+  },
+  {
     "path": "README_CHT.md",
     "hash": "f26e29d09b17110ad6f79d5c40224d57"
   },
   {
     "path": "Honkai_Star_Rail.py",
-    "hash": "5529ab3d37574df049e6d827171d846c"
+    "hash": "b9cba8d7baa78e7430bd20c2f1dc900c"
   },
   {
     "path": "requirements.txt",
@@ -30,6 +38,10 @@
   {
     "path": "gui.py",
     "hash": "aae914d57203b3b571281e78f06b55aa"
+  },
+  {
+    "path": "一键启动.bat",
+    "hash": "c4a7c53ea6b6cb33399143bf1b1d5f8d"
   },
   {
     "path": "whl/Polygon3-3.0.9-cp311-cp311-win_amd64.whl",
