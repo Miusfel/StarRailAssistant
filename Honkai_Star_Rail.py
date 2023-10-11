@@ -318,6 +318,8 @@ class SRA:
             log.info(_("若脚本运行无反应,请使用管理员权限运行"))
             self.option_dict[option]()
 
+starttime=time.time()
+
 if __name__ == "__main__":
     join_time = read_json_file(CONFIG_FILE_NAME).get("join_time", {})
     if type(join_time) == dict:
@@ -363,3 +365,28 @@ if __name__ == "__main__":
         log.error(traceback.format_exc())
     finally:
         sra.stop()
+
+#锄地结束时间
+    endtime=time.time()
+    #锄地运行时间
+    runtime=endtime-starttime
+    #锄地运行时间时分秒格式化
+    m,s=divmod(runtime,60)
+    h,m=divmod(m,60)
+    #输出时间结果
+    print("开始锄地时间",time.strftime("%Y年%m月%d日%H:%M:%S",time.localtime(starttime)))
+    print("结束锄地时间",time.strftime("%Y年%m月%d日%H:%M:%S",time.localtime(endtime)))
+    print("锄地总耗时：","%02d时%02d分%02d秒" % (h, m, s))
+
+    
+    #增加锄地时间记录输出到log
+    def runlog():
+        run_log_file=open('./logs/运行时间.log','a',encoding="utf-8")
+        print("开始锄地时间",time.strftime("%Y年%m月%d日%H:%M:%S",time.localtime(starttime)),file=run_log_file)
+        print("结束锄地时间",time.strftime("%Y年%m月%d日%H:%M:%S",time.localtime(endtime)),file=run_log_file)
+        print("锄地总耗时：","%02d时%02d分%02d秒" % (h, m, s),file=run_log_file)
+        run_log_file.close()
+    runlog()
+
+    #退出脚本
+    os._exit(0)
