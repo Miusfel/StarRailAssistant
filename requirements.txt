@@ -28,4 +28,6 @@ flet
 cryptography
 pluggy
 httpcore
-onnxruntime
+pydantic
+pprint
+jsonschema

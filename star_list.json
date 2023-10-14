@@ -1,27 +1,15 @@
 [
   {
-    "path": "requirements.version.txt",
-    "hash": "274f2659ae5873fae6eeff0163065d2d"
-  },
-  {
-    "path": "安装教程.md",
-    "hash": "e0227fb52a733719fad75b3d256c2804"
-  },
-  {
-    "path": "Autoshutdown_Honkai_Star_Rail.py",
-    "hash": "fa580228c788d07174a15ed255348940"
-  },
-  {
     "path": "README_CHT.md",
     "hash": "f26e29d09b17110ad6f79d5c40224d57"
   },
   {
     "path": "Honkai_Star_Rail.py",
-    "hash": "b9cba8d7baa78e7430bd20c2f1dc900c"
+    "hash": "8cf02bb09a1a6ad9f733cf4b8205d33e"
   },
   {
     "path": "requirements.txt",
-    "hash": "0f32f4d1f3570c30949cfc7f108457ce"
+    "hash": "52b01c9107c262c1ea5ab6191c310997"
   },
   {
     "path": "get_width.py",
@@ -42,10 +30,6 @@
   {
     "path": "gui.py",
     "hash": "aae914d57203b3b571281e78f06b55aa"
-  },
-  {
-    "path": "一键启动.bat",
-    "hash": "8d76c53d1954a1082d05063dcdcc27eb"
   },
   {
     "path": "whl/Polygon3-3.0.9-cp311-cp311-win_amd64.whl",
@@ -97,15 +81,15 @@
   },
   {
     "path": "utils/calculated.py",
-    "hash": "f169a54b20b40a18cb8ca806a6ea3fa7"
+    "hash": "d0b467dbb51ecc5ec2ca581e95b1935e"
   },
   {
     "path": "utils/update_file.py",
-    "hash": "3a4d8ed8364520333eda0a3d1456f35c"
+    "hash": "eb1ca189b78b35d1a2a09eeb1e39cfed"
   },
   {
     "path": "utils/exceptions.py",
-    "hash": "368045dd7ff5b9c346d75d9b3dd6057b"
+    "hash": "6a0a601665ad74fc01010aaa1229e5c3"
   },
   {
     "path": "utils/record_v7.2.py",
@@ -141,7 +125,7 @@
   },
   {
     "path": "utils/config.py",
-    "hash": "cc84336e148d5d7558ef2bde0edee672"
+    "hash": "43a1ba7172c4e434b7ea28b93ceca248"
   },
   {
     "path": "utils/get_angle.py",
@@ -150,6 +134,10 @@
   {
     "path": "utils/commission.py",
     "hash": "173d380cdc984361308350517864d38f"
+  },
+  {
+    "path": "utils/relic.py",
+    "hash": "4603ab2600b091f963425d31b435280b"
   },
   {
     "path": "utils/route_helper.py",
