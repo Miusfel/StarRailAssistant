@@ -1,11 +1,23 @@
 [
   {
+    "path": "requirements.version.txt",
+    "hash": "274f2659ae5873fae6eeff0163065d2d"
+  },
+  {
+    "path": "安装教程.md",
+    "hash": "e0227fb52a733719fad75b3d256c2804"
+  },
+  {
+    "path": "Autoshutdown_Honkai_Star_Rail.py",
+    "hash": "fa580228c788d07174a15ed255348940"
+  },
+  {
     "path": "README_CHT.md",
     "hash": "f26e29d09b17110ad6f79d5c40224d57"
   },
   {
     "path": "Honkai_Star_Rail.py",
-    "hash": "8cf02bb09a1a6ad9f733cf4b8205d33e"
+    "hash": "00a9eae2ccc2a3466c28c2b302268bfc"
   },
   {
     "path": "requirements.txt",
@@ -30,6 +42,10 @@
   {
     "path": "gui.py",
     "hash": "aae914d57203b3b571281e78f06b55aa"
+  },
+  {
+    "path": "一键启动.bat",
+    "hash": "cd72ceeb4e1592430d5f6279da556589"
   },
   {
     "path": "whl/Polygon3-3.0.9-cp311-cp311-win_amd64.whl",
@@ -85,7 +101,7 @@
   },
   {
     "path": "utils/update_file.py",
-    "hash": "eb1ca189b78b35d1a2a09eeb1e39cfed"
+    "hash": "3a4d8ed8364520333eda0a3d1456f35c"
   },
   {
     "path": "utils/exceptions.py",
