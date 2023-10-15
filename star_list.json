@@ -9,7 +9,7 @@
   },
   {
     "path": "Autoshutdown_Honkai_Star_Rail.py",
-    "hash": "fa580228c788d07174a15ed255348940"
+    "hash": "e67bcccd21e758193dfcda1888e720fb"
   },
   {
     "path": "README_CHT.md",
@@ -45,7 +45,11 @@
   },
   {
     "path": "一键启动.bat",
-    "hash": "cd72ceeb4e1592430d5f6279da556589"
+    "hash": "f79a825a355b773b32599f5b39789b40"
+  },
+  {
+    "path": "Exit_Honkai_Star_Rail.py",
+    "hash": "69d51fccaa78136d16b433376b29e5a3"
   },
   {
     "path": "whl/Polygon3-3.0.9-cp311-cp311-win_amd64.whl",
