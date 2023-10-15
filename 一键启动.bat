@@ -29,18 +29,71 @@ if not exist env (
     pip install -r requirements.version.txt
     echo 依赖安装完成
 
-    goto runhonkai
+    goto select
 
-) else (
+) 
+
     rem 激活虚拟环境
     call env\Scripts\activate
-    echo 已经激活虚拟环境
+    echo 已经激活虚拟环境!!!
+
+    rem 显示菜单
+    :select
+    echo 请输入需要执行的脚本
+
+    echo 1.正常锄地
+
+    echo 2.锄地完成后关闭游戏
+
+    echo 3.锄地后关机
+
+    set /p X=请输入序号：
+    if %X%==1 goto runhonkai1
+    if %x%==2 goto runhonkai2
+    if %x%==3 goto runhonkai3
+    echo 输入错误，重新选择
+    goto select
+
     
     rem 启动脚本
-    :runhonkai
-    echo 正在启动中...
+    :runhonkai1
+    echo 开始正常锄地,正在启动中...
     python honkai_star_rail.py
-    echo 按任意键结束
-    pause > nul  
-)
+    exit
+
+    :runhonkai2
+    echo 开始锄地(完成后将关闭游戏),正在启动中...
+    python honkai_star_rail.py
+    taskkill /f /im StarRail.exe
+    exit
+
+    :runhonkai3
+    echo 开始锄地(完成后将自动关机),正在启动中...
+    python honkai_star_rail.py
+    taskkill /f /im StarRail.exe
+    shutdown /f /s /t 60
+    exit
+
+    @REM rem 启动脚本
+    @REM :runhonkai1
+    @REM echo 开始正常锄地,正在启动中...
+    @REM python honkai_star_rail.py
+    @REM taskkill /f /im StarRail.exe
+    @REM goto over
+
+    @REM :runhonkai2
+    @REM echo 开始锄地(完成后将关闭游戏),正在启动中...
+    @REM python Exit_honkai_star_rail.py
+    @REM goto over
+
+    @REM :runhonkai3
+    @REM echo 开始锄地(完成后将自动关机),正在启动中...
+    @REM python Autoshutdown_honkai_star_rail.py
+    @REM goto over
+
+    @REM rem 结束
+    @REM :over
+    @REM echo 按任意键结束
+    @REM pause > nul
+
 

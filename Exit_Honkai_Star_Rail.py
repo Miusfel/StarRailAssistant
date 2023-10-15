@@ -7,6 +7,11 @@ Options:
   -h --help                     显示帮助信息
   --map=<value>                 地图编号，可选
 """
+
+import signal
+#自动关闭星铁
+
+
 import os
 import traceback
 import time
@@ -400,8 +405,14 @@ if __name__ == "__main__":
         run_log_file.close()
     runlog()
 
-    #自动关机
-    os.system("shutdown -s -f" )
+    #运行结束后自动关闭星铁
+    def end_honkaistar(pro_name):
+        #关闭星铁程序
+        pid = os.popen("tasklist | findstr /i " + pro_name).read().split()[1]
+        os.kill(int(pid),signal.SIGTERM)
+    
+    end_honkaistar("StarRail")
+
 
     #退出脚本
     os._exit(0)
