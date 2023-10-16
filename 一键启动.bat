@@ -18,6 +18,7 @@ if not errorlevel 0 (
 
 
 rem 检查虚拟环境后启动脚本
+:start
 if not exist env (
     echo 虚拟环境未安装，正在安装虚拟环境
     python -m venv env
@@ -47,10 +48,13 @@ if not exist env (
 
     echo 3.锄地后关机
 
+    echo 999.重新安装
+
     set /p X=请输入序号：
     if %X%==1 goto runhonkai1
     if %x%==2 goto runhonkai2
     if %x%==3 goto runhonkai3
+    if %x%==999 goto rebuild
     echo 输入错误，重新选择
     goto select
 
@@ -73,6 +77,13 @@ if not exist env (
     taskkill /f /im StarRail.exe
     shutdown /f /s /t 60
     exit
+
+    rem 重新安装
+    :rebuild
+    echo 正在删除env文件夹，请勿退出!!!
+    echo 如果出现异常，可关闭脚本后手动删除env文件夹后重新运行
+    rd /s /q env
+    goto start
 
     @REM rem 启动脚本
     @REM :runhonkai1
