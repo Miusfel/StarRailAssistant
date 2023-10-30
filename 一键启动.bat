@@ -10,12 +10,16 @@ cd /d %~dp0
 rem 检查python环境
 echo 当前python版本为:
 python --version
-if not errorlevel 0 (
-    echo python环境未安装,请先安装python
+python --version | findstr /i "3.11" > nul
+if %errorlevel% == 0 (
+    echo Python 3.11 已正确安装
+) else (
+    echo Python 3.11 未正确安装
+
+    echo 脚本只支持3.11，请勿安装其他版本
     pause
     exit /b 1
 )
-
 
 rem 检查虚拟环境后启动脚本
 :start
@@ -50,6 +54,7 @@ if not exist env (
 
     echo 999.重新安装
 
+
     set /p X=请输入序号：
     if %X%==1 goto runhonkai1
     if %x%==2 goto runhonkai2
@@ -81,7 +86,9 @@ if not exist env (
     rem 重新安装
     :rebuild
     echo 正在删除env文件夹，请勿退出!!!
+
     echo 如果出现异常，可关闭脚本后手动删除env文件夹后重新运行
+
     rd /s /q env
     goto start
 
