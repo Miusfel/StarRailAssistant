@@ -1,31 +1,19 @@
 [
   {
-    "path": "gui.py",
-    "hash": "aae914d57203b3b571281e78f06b55aa"
+    "path": "requirements.version.txt",
+    "hash": "8f7d5e2f1c053ff90da689db1f3b2149"
   },
   {
     "path": "Autoshutdown_Honkai_Star_Rail.py",
     "hash": "e67bcccd21e758193dfcda1888e720fb"
   },
   {
-    "path": "requirements.txt",
-    "hash": "e4ff37159b37960ee9e3f144d8128b93"
+    "path": "get_width.py",
+    "hash": "f638b665c2c0f9cdd841c8bd35ad0852"
   },
   {
     "path": "安装教程.md",
     "hash": "e0227fb52a733719fad75b3d256c2804"
-  },
-  {
-    "path": "一键启动.bat",
-    "hash": "9ede7d7133c972f1dab5a1e5d0a3e46d"
-  },
-  {
-    "path": "README_EN.md",
-    "hash": "86793ffe1c415f308624e02b9924a4f8"
-  },
-  {
-    "path": "map_res_list.py",
-    "hash": "61ddda8760a56ea082d5d7276747312a"
   },
   {
     "path": "Exit_Honkai_Star_Rail.py",
@@ -36,40 +24,40 @@
     "hash": "00a9eae2ccc2a3466c28c2b302268bfc"
   },
   {
-    "path": "get_width.py",
-    "hash": "f638b665c2c0f9cdd841c8bd35ad0852"
-  },
-  {
     "path": "README.md",
     "hash": "4262585cc05d08908b3df000c57a4f5d"
+  },
+  {
+    "path": "README_EN.md",
+    "hash": "86793ffe1c415f308624e02b9924a4f8"
+  },
+  {
+    "path": "requirements.txt",
+    "hash": "e4ff37159b37960ee9e3f144d8128b93"
+  },
+  {
+    "path": "gui.py",
+    "hash": "aae914d57203b3b571281e78f06b55aa"
+  },
+  {
+    "path": "map_res_list.py",
+    "hash": "61ddda8760a56ea082d5d7276747312a"
+  },
+  {
+    "path": "一键启动.bat",
+    "hash": "9ede7d7133c972f1dab5a1e5d0a3e46d"
   },
   {
     "path": "README_CHT.md",
     "hash": "f26e29d09b17110ad6f79d5c40224d57"
   },
   {
-    "path": "requirements.version.txt",
-    "hash": "8f7d5e2f1c053ff90da689db1f3b2149"
-  },
-  {
-    "path": "locale/zh_TC/LC_MESSAGES/sra.mo",
-    "hash": "ef66f8b317d24e3eb326e739cb9b00ee"
-  },
-  {
-    "path": "locale/zh_CN/LC_MESSAGES/sra.mo",
-    "hash": "0a0ccfe2f4f2da8626fda930bd84ef9c"
-  },
-  {
-    "path": "locale/EN/LC_MESSAGES/sra.mo",
-    "hash": "110d45fcca6c7b86a9770cf3e3009026"
+    "path": "model/cnstd/1.2/ppocr/en_PP-OCRv3_det_infer.onnx",
+    "hash": "72708a3ac241e25fefbc606832dc7529"
   },
   {
     "path": "model/cnstd/1.2/ppocr/ch_PP-OCRv3_det_infer.onnx",
     "hash": "5732f8c84bd4cc0dab35094e7260f080"
-  },
-  {
-    "path": "model/cnstd/1.2/ppocr/en_PP-OCRv3_det_infer.onnx",
-    "hash": "72708a3ac241e25fefbc606832dc7529"
   },
   {
     "path": "model/cnocr/label_cn.txt",
@@ -80,6 +68,10 @@
     "hash": "079f9e53539b1e636df518dfc8343f38"
   },
   {
+    "path": "model/cnocr/2.2/densenet_lite_134-fc/cnocr-v2.2-densenet_lite_134-fc-epoch=034-complete_match_epoch=0.8376-model.onnx",
+    "hash": "332265c72378b39e83ced6b4e42954c4"
+  },
+  {
     "path": "model/cnocr/2.2/ppocr/en_number_mobile_v2.0_rec_infer.onnx",
     "hash": "442ea7b4dabdbaec95af17a6d17c3503"
   },
@@ -88,40 +80,56 @@
     "hash": "003da6ca16cae88c5270882fc5e7417b"
   },
   {
-    "path": "model/cnocr/2.2/densenet_lite_134-fc/cnocr-v2.2-densenet_lite_134-fc-epoch=034-complete_match_epoch=0.8376-model.onnx",
-    "hash": "332265c72378b39e83ced6b4e42954c4"
+    "path": "locale/EN/LC_MESSAGES/sra.mo",
+    "hash": "110d45fcca6c7b86a9770cf3e3009026"
   },
   {
-    "path": "whl/cnstd-1.2.2-py3-none-any.whl",
-    "hash": "2e700dd1d42f71c71b739bd6afa67a8a"
+    "path": "locale/zh_TC/LC_MESSAGES/sra.mo",
+    "hash": "ef66f8b317d24e3eb326e739cb9b00ee"
   },
   {
-    "path": "whl/Polygon3-3.0.9.1-cp310-cp310-win_amd64.whl",
-    "hash": "0c19795eb68713cde783a434ea636ba9"
+    "path": "locale/zh_CN/LC_MESSAGES/sra.mo",
+    "hash": "0a0ccfe2f4f2da8626fda930bd84ef9c"
   },
   {
-    "path": "whl/Polygon3-3.0.9-cp311-cp311-win_amd64.whl",
-    "hash": "43a2cab179598fdaaa21da76cdaaaafc"
+    "path": "utils/log.py",
+    "hash": "172d7d4d63c1b3136c5600055e666967"
   },
   {
-    "path": "whl/cnocr-2.2.2.3-py3-none-any.whl",
-    "hash": "fff249a0f8c75f5bc4f0f97c95880bd8"
+    "path": "utils/relic.py",
+    "hash": "4603ab2600b091f963425d31b435280b"
   },
   {
-    "path": "whl/httpx_socks-0.7.7-py3-none-any.whl",
-    "hash": "9c9fcdf730445180029471858d8e8c27"
+    "path": "utils/cv_tools.py",
+    "hash": "8cee1592daf7b4ff153b8ef9c97a39f8"
   },
   {
-    "path": "utils/update_file.py",
-    "hash": "3a4d8ed8364520333eda0a3d1456f35c"
+    "path": "utils/record_v7.2.py",
+    "hash": "03047d50df214d029132f5f9a7372aae"
   },
   {
-    "path": "utils/old_cv_tools.py",
-    "hash": "d58c447d88f7924704ddbc593985bf0b"
+    "path": "utils/adb.py",
+    "hash": "82993dbc84090d081cff62d95d2d5d7a"
   },
   {
     "path": "utils/requests.py",
     "hash": "f004e90febde2faeb7577e928df8380d"
+  },
+  {
+    "path": "utils/map.py",
+    "hash": "dfeba1fee224dbde5e266ddcdb5b144c"
+  },
+  {
+    "path": "utils/calculated.py",
+    "hash": "570b53277e3804e669f63d7ef36675e0"
+  },
+  {
+    "path": "utils/route_helper.py",
+    "hash": "cca50ef52d7075c186e12badeb0a35d0"
+  },
+  {
+    "path": "utils/exceptions.py",
+    "hash": "6a0a601665ad74fc01010aaa1229e5c3"
   },
   {
     "path": "utils/get_angle.py",
@@ -132,47 +140,39 @@
     "hash": "a034ae2b2de94b16d3ac6ed1dfe3a807"
   },
   {
-    "path": "utils/exceptions.py",
-    "hash": "6a0a601665ad74fc01010aaa1229e5c3"
-  },
-  {
-    "path": "utils/record_v7.2.py",
-    "hash": "03047d50df214d029132f5f9a7372aae"
-  },
-  {
-    "path": "utils/log.py",
-    "hash": "172d7d4d63c1b3136c5600055e666967"
-  },
-  {
-    "path": "utils/calculated.py",
-    "hash": "d0b467dbb51ecc5ec2ca581e95b1935e"
-  },
-  {
-    "path": "utils/map.py",
-    "hash": "dfeba1fee224dbde5e266ddcdb5b144c"
-  },
-  {
-    "path": "utils/cv_tools.py",
-    "hash": "8cee1592daf7b4ff153b8ef9c97a39f8"
-  },
-  {
-    "path": "utils/commission.py",
-    "hash": "173d380cdc984361308350517864d38f"
+    "path": "utils/update_file.py",
+    "hash": "3a4d8ed8364520333eda0a3d1456f35c"
   },
   {
     "path": "utils/config.py",
     "hash": "5ed9c80300bfddb56cc44673dfe6c8ae"
   },
   {
-    "path": "utils/adb.py",
-    "hash": "82993dbc84090d081cff62d95d2d5d7a"
+    "path": "utils/old_cv_tools.py",
+    "hash": "d58c447d88f7924704ddbc593985bf0b"
   },
   {
-    "path": "utils/route_helper.py",
-    "hash": "cca50ef52d7075c186e12badeb0a35d0"
+    "path": "utils/commission.py",
+    "hash": "173d380cdc984361308350517864d38f"
   },
   {
-    "path": "utils/relic.py",
-    "hash": "4603ab2600b091f963425d31b435280b"
+    "path": "whl/cnocr-2.2.2.3-py3-none-any.whl",
+    "hash": "fff249a0f8c75f5bc4f0f97c95880bd8"
+  },
+  {
+    "path": "whl/Polygon3-3.0.9-cp311-cp311-win_amd64.whl",
+    "hash": "43a2cab179598fdaaa21da76cdaaaafc"
+  },
+  {
+    "path": "whl/cnstd-1.2.2-py3-none-any.whl",
+    "hash": "2e700dd1d42f71c71b739bd6afa67a8a"
+  },
+  {
+    "path": "whl/httpx_socks-0.7.7-py3-none-any.whl",
+    "hash": "9c9fcdf730445180029471858d8e8c27"
+  },
+  {
+    "path": "whl/Polygon3-3.0.9.1-cp310-cp310-win_amd64.whl",
+    "hash": "0c19795eb68713cde783a434ea636ba9"
   }
 ]
