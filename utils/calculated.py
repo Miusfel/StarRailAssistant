@@ -463,8 +463,8 @@ class calculated(CV_Tools):
     def check_fighting(self):
         while True:
             if (
-                self.compare_lists([0, 0, 222], self.get_pix_rgb(pos=(1435, 58))) and
-                self.compare_lists(self.get_pix_rgb(pos=(1435, 58)), [0, 0, 240]) and
+                self.compare_lists([0, 0, 222], self.get_pix_rgb(pos=(1766, 30))) and
+                self.compare_lists(self.get_pix_rgb(pos=(1766, 30)), [0, 0, 240]) and
                 self.compare_lists([20, 90, 80], self.get_pix_rgb(pos=(88, 979))) and
                 self.compare_lists(self.get_pix_rgb(pos=(88, 979)), [25, 100, 90])
             ):
@@ -502,8 +502,8 @@ class calculated(CV_Tools):
         while True:
             if type == 0:
                 if (
-                    self.compare_lists([0, 0, 222], self.get_pix_rgb(pos=(1435, 58))) and
-                    self.compare_lists(self.get_pix_rgb(pos=(1435, 58)), [0, 0, 240]) and
+                    self.compare_lists([0, 0, 222], self.get_pix_rgb(pos=(1766, 30))) and
+                    self.compare_lists(self.get_pix_rgb(pos=(1766, 30)), [0, 0, 240]) and
                     self.compare_lists([20, 90, 80], self.get_pix_rgb(pos=(88, 979))) and
                     self.compare_lists(self.get_pix_rgb(pos=(88, 979)), [25, 100, 90])
                 ):
@@ -879,8 +879,8 @@ class calculated(CV_Tools):
         time.sleep(0.3) # 缓冲
         while True:            
             if (
-                self.compare_lists([0, 0, 222], self.get_pix_rgb(pos=(1435, 58))) and
-                self.compare_lists(self.get_pix_rgb(pos=(1435, 58)), [0, 0, 240]) and
+                self.compare_lists([0, 0, 222], self.get_pix_rgb(pos=(1766, 30))) and
+                self.compare_lists(self.get_pix_rgb(pos=(1766, 30)), [0, 0, 240]) and
                 self.compare_lists([20, 90, 80], self.get_pix_rgb(pos=(88, 979))) and
                 self.compare_lists(self.get_pix_rgb(pos=(88, 979)), [25, 100, 90])
             ):
