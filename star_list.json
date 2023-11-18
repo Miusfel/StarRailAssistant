@@ -1,11 +1,19 @@
 [
   {
+    "path": "requirements.version.txt",
+    "hash": "8f7d5e2f1c053ff90da689db1f3b2149"
+  },
+  {
     "path": "get_width.py",
     "hash": "f638b665c2c0f9cdd841c8bd35ad0852"
   },
   {
+    "path": "安装教程.md",
+    "hash": "e0227fb52a733719fad75b3d256c2804"
+  },
+  {
     "path": "Honkai_Star_Rail.py",
-    "hash": "627f474bb8c04c319008e1683074df0d"
+    "hash": "87285ebbf35a2048f1cf487c233893de"
   },
   {
     "path": "README.md",
@@ -26,6 +34,10 @@
   {
     "path": "map_res_list.py",
     "hash": "61ddda8760a56ea082d5d7276747312a"
+  },
+  {
+    "path": "一键启动.bat",
+    "hash": "9ede7d7133c972f1dab5a1e5d0a3e46d"
   },
   {
     "path": "README_CHT.md",
@@ -109,7 +121,7 @@
   },
   {
     "path": "utils/calculated.py",
-    "hash": "165798560ca78e99c9e6c6a25fef3eb2"
+    "hash": "884f8dafbc3da5a4ccaef0edf74497cb"
   },
   {
     "path": "utils/route_helper.py",
