@@ -1,27 +1,11 @@
 [
   {
-    "path": "requirements.version.txt",
-    "hash": "8f7d5e2f1c053ff90da689db1f3b2149"
-  },
-  {
-    "path": "Autoshutdown_Honkai_Star_Rail.py",
-    "hash": "e67bcccd21e758193dfcda1888e720fb"
-  },
-  {
     "path": "get_width.py",
     "hash": "f638b665c2c0f9cdd841c8bd35ad0852"
   },
   {
-    "path": "安装教程.md",
-    "hash": "e0227fb52a733719fad75b3d256c2804"
-  },
-  {
-    "path": "Exit_Honkai_Star_Rail.py",
-    "hash": "69d51fccaa78136d16b433376b29e5a3"
-  },
-  {
     "path": "Honkai_Star_Rail.py",
-    "hash": "00a9eae2ccc2a3466c28c2b302268bfc"
+    "hash": "627f474bb8c04c319008e1683074df0d"
   },
   {
     "path": "README.md",
@@ -33,19 +17,15 @@
   },
   {
     "path": "requirements.txt",
-    "hash": "e4ff37159b37960ee9e3f144d8128b93"
+    "hash": "a2c9287c9aa1cfc5ed857038e574a92e"
   },
   {
     "path": "gui.py",
-    "hash": "aae914d57203b3b571281e78f06b55aa"
+    "hash": "3dd52a9e9f19d44ee2c06b5abcabcaf7"
   },
   {
     "path": "map_res_list.py",
     "hash": "61ddda8760a56ea082d5d7276747312a"
-  },
-  {
-    "path": "一键启动.bat",
-    "hash": "9ede7d7133c972f1dab5a1e5d0a3e46d"
   },
   {
     "path": "README_CHT.md",
@@ -80,6 +60,14 @@
     "hash": "003da6ca16cae88c5270882fc5e7417b"
   },
   {
+    "path": "model/cnocr_for_relic/2.2/densenet_lite_114-fc/cnocr-v2.2-densenet_lite_114-fc-epoch=037-complete_match_epoch=0.7859-model.onnx",
+    "hash": "d661b811419ff7dde7eb8543690cdd2b"
+  },
+  {
+    "path": "model/cnocr_for_relic/2.2/ppocr/en_number_mobile_v2.0_rec_infer.onnx",
+    "hash": "442ea7b4dabdbaec95af17a6d17c3503"
+  },
+  {
     "path": "locale/EN/LC_MESSAGES/sra.mo",
     "hash": "110d45fcca6c7b86a9770cf3e3009026"
   },
@@ -97,11 +85,11 @@
   },
   {
     "path": "utils/relic.py",
-    "hash": "4603ab2600b091f963425d31b435280b"
+    "hash": "abeeb6dc7a248ae1a290a43879409906"
   },
   {
     "path": "utils/cv_tools.py",
-    "hash": "8cee1592daf7b4ff153b8ef9c97a39f8"
+    "hash": "0d39d485230635d3c276bb3a992640f2"
   },
   {
     "path": "utils/record_v7.2.py",
@@ -117,15 +105,19 @@
   },
   {
     "path": "utils/map.py",
-    "hash": "dfeba1fee224dbde5e266ddcdb5b144c"
+    "hash": "611944e964f7bd10bde59d5bad997aa6"
   },
   {
     "path": "utils/calculated.py",
-    "hash": "997578d8a7623b672bba28748d349208"
+    "hash": "165798560ca78e99c9e6c6a25fef3eb2"
   },
   {
     "path": "utils/route_helper.py",
     "hash": "cca50ef52d7075c186e12badeb0a35d0"
+  },
+  {
+    "path": "utils/relic_constants.py",
+    "hash": "b83b876b1d6d0d11351f96a638f69713"
   },
   {
     "path": "utils/exceptions.py",
@@ -141,11 +133,11 @@
   },
   {
     "path": "utils/update_file.py",
-    "hash": "3a4d8ed8364520333eda0a3d1456f35c"
+    "hash": "eb1ca189b78b35d1a2a09eeb1e39cfed"
   },
   {
     "path": "utils/config.py",
-    "hash": "5ed9c80300bfddb56cc44673dfe6c8ae"
+    "hash": "383feaef580d619bea67d18394ce05fb"
   },
   {
     "path": "utils/old_cv_tools.py",
@@ -154,6 +146,86 @@
   {
     "path": "utils/commission.py",
     "hash": "173d380cdc984361308350517864d38f"
+  },
+  {
+    "path": "utils/questionary/README.md",
+    "hash": "eeeb57320b4f37bf7872e664155ff7af"
+  },
+  {
+    "path": "utils/questionary/NOTICE",
+    "hash": "9141c677ada3006a91876bb33b3ebd5a"
+  },
+  {
+    "path": "utils/questionary/questionary/version.py",
+    "hash": "96dcecb8bd4541554d1be2c1eaec4454"
+  },
+  {
+    "path": "utils/questionary/questionary/utils.py",
+    "hash": "1f6a636d1b97b4fcbb45928e8af71d5a"
+  },
+  {
+    "path": "utils/questionary/questionary/constants.py",
+    "hash": "abb63dccac936e5589d80b568f41dfda"
+  },
+  {
+    "path": "utils/questionary/questionary/styles.py",
+    "hash": "98b2e73ee7803ef0a4b256115f41b435"
+  },
+  {
+    "path": "utils/questionary/questionary/form.py",
+    "hash": "ed8238bd746cd076dfadafb5767bcfb4"
+  },
+  {
+    "path": "utils/questionary/questionary/py.typed",
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "path": "utils/questionary/questionary/prompt.py",
+    "hash": "6ef4d8712a464dae3c6d55e518fdefd4"
+  },
+  {
+    "path": "utils/questionary/questionary/question.py",
+    "hash": "f09f3f1da53ec97c1a7f3c5053e6f81d"
+  },
+  {
+    "path": "utils/questionary/questionary/prompts/checkbox.py",
+    "hash": "3d13a70c6b2d47d59d0e465ba0b22c79"
+  },
+  {
+    "path": "utils/questionary/questionary/prompts/autocomplete.py",
+    "hash": "ef1a8f88b18eeaccdcacac1c5eba82ce"
+  },
+  {
+    "path": "utils/questionary/questionary/prompts/confirm.py",
+    "hash": "16e9093acd7b83640fd20d712c94e3f1"
+  },
+  {
+    "path": "utils/questionary/questionary/prompts/path.py",
+    "hash": "15f9c11b9657def75b470f2e6b25a0ca"
+  },
+  {
+    "path": "utils/questionary/questionary/prompts/rawselect.py",
+    "hash": "aed49c4b350ec45b5095791f37bf758a"
+  },
+  {
+    "path": "utils/questionary/questionary/prompts/common.py",
+    "hash": "8df03b31d4bf9e6eb8279e53234bc845"
+  },
+  {
+    "path": "utils/questionary/questionary/prompts/select.py",
+    "hash": "0c00084273d24253469a651532a2e803"
+  },
+  {
+    "path": "utils/questionary/questionary/prompts/press_any_key_to_continue.py",
+    "hash": "386ac31eca4c276f21fdbe6c329c3cdd"
+  },
+  {
+    "path": "utils/questionary/questionary/prompts/password.py",
+    "hash": "45cc7d27bb2ca7aa1f90fbe9652ec618"
+  },
+  {
+    "path": "utils/questionary/questionary/prompts/text.py",
+    "hash": "f3ae150c4b9472903fd0b47a24aec544"
   },
   {
     "path": "whl/cnocr-2.2.2.3-py3-none-any.whl",

@@ -102,6 +102,8 @@ class SRA:
             return [{}]
 
     def end(self):
+        if sra_config_obj.auto_shutdown:
+            os.system("shutdown -s -t 60")
         try:
             plugin_manager.hook.end(SRA=self)
         except:
@@ -256,6 +258,12 @@ class SRA:
             options = [_('没打开'), _('打开了'), _('这是什么')]
             option = questionary.select(title, options).ask()
             sra_config_obj.auto_battle_persistence = options.index(option)
+
+            title = _("需要锄大地结束后自动关机么？：")
+            options = [_('不需要'), _('需要')]
+            option = questionary.select(title, options).ask()
+            sra_config_obj.auto_shutdown = bool(options.index(option))
+
             sra_config_obj.start = True
             raise Exception(_("请重新运行"))
 
@@ -293,6 +301,11 @@ class SRA:
         if option in self.option_list:
             (start, role_list) = self.choose_map(option) if not start else (start, role_list)
             if start:
+                if option == _("遗器模块"):     # 遗器模块此时不需要将游戏窗口激活
+                    log.info(_("遗器模块初始化中..."))
+                    relic = Relic(game_title)
+                    relic.relic_entrance()
+                    return True
                 log.info(_("脚本将自动切换至游戏窗口，请保持游戏窗口激活"))
                 calculated(game_title, start=False).switch_window()
                 time.sleep(0.5)
@@ -310,10 +323,6 @@ class SRA:
                 elif option == _("派遣委托"):
                     commission = Commission(4, game_title)
                     commission.start()  # 读取配置
-                elif option == _("遗器模块"):
-                    relic = Relic(game_title)
-                    relic.relic_entrance()
-                    return True
             else:
                 raise Exception(role_list)
         else:
@@ -358,14 +367,13 @@ if __name__ == "__main__":
                     sra.set_config(False)
                 elif option == None:
                     ...
+                elif option ==  _('退出脚本'):
+                    if questionary.select(_("请问要退出脚本吗？"), [_("退出"), _("返回主菜单")]).ask() == _("返回主菜单"):
+                        select()
                 else:
-                    if option:
-                        is_loop = sra.main(option)
-                        if is_loop:
-                            select()
-                    else:
-                        if questionary.select(_("请问要退出脚本吗？"), [_("退出"), _("返回主菜单")]).ask() == _("返回主菜单"):
-                            select()
+                    is_loop = sra.main(option)
+                    if is_loop:
+                        select()
             serial_map = args.get("--map") if args.get("--map") != "default" else "1-1_1" # 地图编号
             select() if not serial_map else sra.main(start=serial_map)
             sra.end()
