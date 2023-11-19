@@ -190,7 +190,7 @@ class SRA:
             sra_config_obj.language = options[option]
             importlib.reload(utils.config)
             title = _("请选择代理地址：（不使用代理选空白选项）")
-            options = ['https://ghproxy.com/', 'https://ghproxy.net/', 'hub.fgit.ml', '']
+            options = ['https://ghproxy.com/', 'https://ghproxy.net/', '']
             url_ms = []
             pbar = tqdm.tqdm(total=len(options), desc=_('测速中'), unit_scale=True, unit_divisor=1024, colour="green")
             for index,url in enumerate(options):
@@ -210,7 +210,7 @@ class SRA:
             option = options[url_ms.index(questionary.select(title, url_ms).ask())]
             sra_config_obj.github_proxy = option
             title = _("请选择下载代理地址：（不使用代理选空白选项）")
-            options = ['https://ghproxy.com/', 'https://ghproxy.net/', 'raw.fgit.ml', '']
+            options = ['https://ghproxy.com/', 'https://ghproxy.net/', '']
             url_ms = []
             pbar = tqdm.tqdm(total=len(options), desc=_('测速中'), unit_scale=True, unit_divisor=1024, colour="green")
             for index,url in enumerate(options):
@@ -258,6 +258,11 @@ class SRA:
             options = [_('没打开'), _('打开了'), _('这是什么')]
             option = questionary.select(title, options).ask()
             sra_config_obj.auto_battle_persistence = options.index(option)
+
+            title = _("需要锄大地结束后自动捡漏吗？：")
+            options = [_('不需要'), _('需要')]
+            option = questionary.select(title, options).ask()
+            sra_config_obj.deficiency = bool(options.index(option))
 
             title = _("需要锄大地结束后自动关机么？：")
             options = [_('不需要'), _('需要')]
