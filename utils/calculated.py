@@ -324,7 +324,15 @@ class calculated(CV_Tools):
             "map_2-1": _("城郊雪原"),
             "map_2-2": _("边缘通路"),
             "map_2-3": _("残响回廊"),
+            "map_2-3_point_3":{
+                "name": _("污染广场"),
+                "points": (40, 67, 63, 79)
+            },
             "map_2-4": _("永冬岭"),
+            "map_2-4_point_2":{
+                "name": _("古战场雪原"),
+                "points": (40, 67, 63, 79)
+            },
             "map_2-5": _("大矿区"),
             "map_2-6": _("铆钉镇"),
             "map_2-7": _("机械聚落"),
@@ -337,6 +345,27 @@ class calculated(CV_Tools):
             "map_3-6": _("丹鼎司"),
             "map_3-7": _("鳞渊境"),
             "change_team": _("更换队伍"),
+            #二级点位
+            "map_2-5_point_3":{
+                "name": _("藏珍之蕾"),
+                "points": (40, 67, 63, 79)
+            },
+            "map_2-5_point_5":{
+                "name": _("俯瞰点"),
+                "points": (40, 67, 63, 79)
+            },
+            "map_3-2_point_2":{
+                "name": _("飞星小筑"),
+                "points": (40, 67, 63, 79)
+            },
+            "map_3-3_point_3":{
+                "name": _("禨祥台"),
+                "points": (40, 67, 63, 79)
+            },
+            "map_3-6_point_4_0":{
+                "name": _("行医市集"),
+                "points": (40, 67, 63, 79)
+            },
         }
 
         if temp_name in temp_ocr:
@@ -697,6 +726,13 @@ class calculated(CV_Tools):
                 data = {i['text'].replace(" ", ""): (int(game_left+x+i['position'][0][0]), int(game_top+y+i['position'][0][1])) for i in out}
             else:
                 data = {i['text'].replace(" ", ""): (int(game_left+x+(i['position'][2][0]+i['position'][0][0])/2),int(game_top+y+(i['position'][2][1]+i['position'][0][1])/2)) for i in out}
+       
+        #修复迴星港识别错误
+        if "迥星港" in data:
+            data["迴星港"]=data["迥星港"]
+            del data["迥星港"]
+        #修复迴星港识别错误
+      
         if debug:
             log.info(data)
             # show_img(img_fp)
