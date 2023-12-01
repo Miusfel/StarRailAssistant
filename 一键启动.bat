@@ -31,7 +31,7 @@ if not exist env (
     echo 已经激活虚拟环境
 
     echo 准备安装依赖
-    pip install -r requirements.version.txt
+    pip install -r requirements.version.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
     echo 依赖安装完成
 
     goto select
